@@ -1,0 +1,76 @@
+
+body{
+    font-family: 'Roboto', monospace;
+    color: rgb(248, 242, 242);
+}
+
+.center{
+    margin: 20vh 5vw;
+    font-size: 1.5rem;       
+    line-height: 1.5rem;
+    
+}
+.center-title{
+   width: 50vw;
+   
+}
+.center h1{
+    font-size: 2rem;
+}
+
+#btnOpen{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 20px;
+    background: #f3666f;
+    margin-top: 5vh;
+    border: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#btnOpen:hover {
+    background: #e8505b;
+    box-shadow: 5px 5px rgba(15, 15, 15, 0.274) ;
+
+}
+
+.ilustration{
+    width: 40vw;
+    position: absolute;
+    float: right;
+    right: 20px;
+    top: 20vh;
+
+}
+
+@media (min-width: 1024px){
+    .center-title h1{
+        font-size: 2.5rem;
+    }
+    #btnOpen{
+        width: 40vw;
+    }
+}
+
+@media (max-width: 425px){
+    .center{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .center-title{
+        font-size: 1.2rem;
+    }
+    
+    .ilustration{
+        float: none;
+        position: unset;
+        width: 80vw;
+    }
+    #btnOpen{
+        width: 60vw;
+    }
+}

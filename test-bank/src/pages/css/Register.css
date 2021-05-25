@@ -1,0 +1,21 @@
+.Form-Container{
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.Form-Container h1{
+    font-size: 3rem;
+}
+.Labels{
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.LabelsNames{
+    display: flex;
+    
+}
