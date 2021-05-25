@@ -1,102 +1,46 @@
-# O trabalho por aqui na 4CADIA Factory
+<h1 align="center">Banco XYZ</h1>
+<p align="center">A Open Banking Single Page Project with Home, LogIn and Register pages with React </p>
 
-Que tal fazer parte de um time com atitude? Participar de uma das maiores disrupções no mercado? Ter a oportunidade de trabalhar com tecnologias e conceitos inovadores, como:
+<p align="center">
+ <a href="#features">Features</a> •
+ <a href="#Technology">Technology</a> • 
+ <a href="#Getting-started">Getting Started</a> • 
+ <a href="#Keep-in-touch">Keep In touch</a>
+</p>
 
-* Práticas ágeis como Kanban / Scrum
-* Blockchain
-* AWS
-* Escalabilidade
-* Micro services e aplicações distribuídas
-* Git
-* Angular/React/Vue
-* NodeJS/NestJS/Express
-* Bootstrap/Material Design
-* TDD
-* BDD
+## 🚧 Features
 
-# Tecnologias/Padrões
+- [x] Login Page
+- [x] Register Page
+- [X] Home
 
-Caso precise escolher, sugerimos utilizar as seguintes tecnologias :
 
-* Linguagem de programação Typescript (preferencialmente) ou Javascript
-* Qualquer Framework de estilo 
-* Vue.js, React ou Angular 2+
-* Flux (Redux, Vuex, etc)
-* NodeJS, NestJS e/ou Express
-* Testes (Que achar necessário)
-* MongoDB, Postgre, CassandraDB, Redis, ou qualquer outra tecnologia NoSQL similar (se necessário)
-* Qualquer tecnologia ou padrão complementar as citadas anteriormente são permitidas com as devidas justificativas no README.
+## 🛠 Technology
 
-Caso tenha familiaridade com outras tecnologias e queira utilizar no lugar de alguma dessas, favor justificar no README juntamente com o motivo e prós e contras.
-Temos preferência pelas linguagens (em ordem decrescente de utilização):
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Fomik](https://formik.org/docs/overview) (for authentication form)
 
-* C# e/ou .net
-* Go
-* Python
-* C, C++, Rust e/ou afins
-* Java
-* Ruby
-* PHP
+## ✅ Getting Started
+<p>Before you started you have to install Git, Node.js and a editor code of your preference.</p>
 
-# A Prova
+#### Clone this repository
+- $ git clone https://github.com/priscila-une/dev-test.git
 
-Você será avaliado pela qualidade do código, pela modularidade, pela legibilidade, pela criatividade, pela quantidade de funcionalidades básicas e extra.
-Não se preocupe em cumprir todo o escopo, caso não tenha disponibilidade/habilidade no momento do teste. Se preocupe mais em **cumprir bem** e **documentar bem** tudo que se propor a fazer, e deixar bem claro aquilo que escolheu deliberadamente não desenvolver.
+#### Project directory terminal/cmd
+- $ cd test-bank
 
-## Prazo de entrega
+#### Install dependencies
+- $ npm install
 
-Prazo 1 semana.
+#### Start the project
+- $ npm start
 
-## Crie uma Single Page para um Open Banking (Você cria o layout e nome, os textos pode utilizar Lorem Ipsum). 
 
-O layout e por sua conta, seja criativo.
-Qualquer funcionalidade extra é bem vinda para agregar na solução básica proposta.
+## 📫 Keep in touch
 
-Vincule na single page a aplicação solicitada abaixo, redirecionando para Login.
+<a href="https://www.linkedin.com/in/evelin-priscila-une-santos-82811b1b8/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-511281?style=flat&logo=linkedin&logoColor=white" width="100px">
+  </a>
 
-## Crie uma API onde terá os seguintes metodos:
-
-* Register
-* Login
-* Extrato
-* Saldos
-
-## Desenvolva uma aplicação frontend para vinculo das APIs, deve conter, Registro, Login, Dashboard(com saldos) e Extrato de movimentos.
-
-O layout e por sua conta, seja criativo.
-Qualquer funcionalidade extra é bem vinda para agregar na solução básica proposta.
-
-## Crie o banco de dados de sua escolha para administrar as informações.
-
-# Arquitetura da solução/O que fazer
-
-No arquivo README do projeto explique o funcionamento e a solução adotada na sua implementação do desafio.
-É permitido utilizar templates, livrarias e componentes prontos de outros projetos, porém precisam estar **explicitamente** descritos no README.
-
-**Importante:** Favor destacar no README os pontos positivos nos quais você deseja ser avaliado, e evidenciar quais as partes você gostaria de excluir da avaliação. Isso permite que você complete o teste mais rapidamente se desejar, dando atenção somente a algumas àreas específicas, sem grandes prejuízos à sua avalização de qualidade do código.
-
-## Avaliação
-
-Os principais critérios de avaliação são:
-
-* Usabilidade
-* Raciocínio lógico na construção da solução
-* Qualidade de código
-* Documentação do projeto (readme)
-* Performance
-
-Serão avaliados também os critérios de:
-
-* Criatividade
-* Documentação de código
-* Responsividade
-* Acessibilidade
-* Apresentação visual
-* Cobertura de testes
-
-## Sugestões
-
-* Utilizar o [Lighthouse](https://developers.google.com/web/tools/lighthouse) (ou similar) para medir a qualidade da aplicação
-* Utilizar as *badges* no readme ([sugestão](https://github.com/dwyl/repo-badges)) para indicar a cobertura de testes, status de build, vulnerabilidades e afins
-* Utilizar o [Swagger](https://swagger.io/) ou similar para facilitar os testes e documentação das APIs (se necessário)
-* Utilizar o Inglês como linguagem padrão para o código e documentação
